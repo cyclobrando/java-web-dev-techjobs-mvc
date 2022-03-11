@@ -37,6 +37,7 @@
     <hr />
 
     <!-- TODO #4 - Loop over the search results to display all job fields. -->
+    <tblock th:if="${jobs}" th:replace="list-jobs :: listing"></tblock>
 
 </div>
 
